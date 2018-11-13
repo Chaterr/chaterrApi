@@ -1,0 +1,27 @@
+{
+  "name": "ecommerceservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Ravid Shabot",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^6.1.0",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.3",
+    "fetch-paginate": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.10",
+    "mongoose": "5.0.16",
+    "morgan": "^1.9.0",
+    "shopify-prime": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
